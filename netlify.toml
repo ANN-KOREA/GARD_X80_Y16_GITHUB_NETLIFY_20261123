@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Runtime headers are also in public/_headers for manual drag-and-drop deployments.
+# No Functions, database, API keys, ChatGPT login or Netlify Identity are required.

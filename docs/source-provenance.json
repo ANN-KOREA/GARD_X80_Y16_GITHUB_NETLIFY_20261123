@@ -1,0 +1,219 @@
+{
+  "source_url": "https://x80-y16-score-factory.gard-7199.chatgpt.site",
+  "source_project_id": "appgprj_6a8976ee257881919babbe4d39795302",
+  "source_version": 5,
+  "source_commit": "04c4a2eb5bc2d2683b5c67ca6c9d8beb684664db",
+  "migration_date": "2026-11-23",
+  "original_access_mode": "workspace_all",
+  "destination": "GitHub source + Netlify static deployment",
+  "calculation_engines_unchanged": [
+    "lib/score-engine.ts",
+    "lib/ml-runtime.ts"
+  ],
+  "model_file_count": 33,
+  "model_files": [
+    {
+      "path": "public/models/registry.json",
+      "bytes": 9826,
+      "sha256": "e8577b78f591475ea7364975767f99c67880c0e96051223a615e54dd805c2cb9",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage1.bin",
+      "bytes": 6396624,
+      "sha256": "53c43d929204da0cff370b281d15c61648014f77c6b22e1866681b90100ec565",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage1.json",
+      "bytes": 252404,
+      "sha256": "1aa00f0e2d2e09a51206d39586080d087c1a5c8b1119246e5a30064f3c5558c8",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage10.bin",
+      "bytes": 4743356,
+      "sha256": "24429b6e7dbb9e5ac07793f136c3dbc09660a1b5e6092a3e4be331674070173e",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage10.json",
+      "bytes": 252429,
+      "sha256": "67acd2ebcfba3eeae504c9ef017cca298a17b6f98949d3c675b7b25f08fc08fa",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage11.bin",
+      "bytes": 2710568,
+      "sha256": "66ab15d87bd09a55a37e7741d2d0cc04879f48ec027c115da4d06beba62539f9",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage11.json",
+      "bytes": 252410,
+      "sha256": "63977f8ed4f5872ba2c220815beb0d1518f8667e8eb105b74dabb3d657afcfad",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage12.bin",
+      "bytes": 3874016,
+      "sha256": "a15d8b37446d4026cfd07eb703ff20891819dcc98b0307dc65dde35d16184475",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage12.json",
+      "bytes": 252400,
+      "sha256": "d77f3cda12934da6fd8f2c4c6eb89b2d4188b9335313ed3ffa380214089c632f",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage13.bin",
+      "bytes": 1856816,
+      "sha256": "4fdb45f3968c4e72d664eb7a03b960991d2bdcacbe2cf2265424883d3c858266",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage13.json",
+      "bytes": 252405,
+      "sha256": "15947218b50079320b2dadaf2688a2a1ac7ff3775d908fdbf73af33ce99ba294",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage14.bin",
+      "bytes": 5203172,
+      "sha256": "d797d6f74744d5ebf561b40cf80b08d43a55dccbe441a215c23dba920ff8a692",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage14.json",
+      "bytes": 252446,
+      "sha256": "b763a17befdd9815765335bd97e5d0d43d51d9b4805df12116f4857f4ad2a0c5",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage15.bin",
+      "bytes": 2320464,
+      "sha256": "fe4f28191abca1ec1f9830b6f74e816479a8587d2a70e8d333e7cf7e8dfaec89",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage15.json",
+      "bytes": 252398,
+      "sha256": "1e5cb59cd3c89d385483f7e5b2fbbcf558bfded45551f9efb6b74d1c277b74c3",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage16.bin",
+      "bytes": 3330280,
+      "sha256": "b530aae78e952ee1dce66b7195f1e7cfad16b46a0a89a647a39a8e8d007b10a9",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage16.json",
+      "bytes": 252433,
+      "sha256": "dbf60eafe1d8b8d1896822c2a34b05de231bd2350f82406977b0487e2e18d87c",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage2.bin",
+      "bytes": 4639244,
+      "sha256": "860b68169d0235d2be110b749d98ebd7bdc03cdd62db0457ca3e9138003daf96",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage2.json",
+      "bytes": 252406,
+      "sha256": "5c9aeb43d8347c0381a80afd15f81a727d5460dc945afde0aa33b801e51fe24d",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage3.bin",
+      "bytes": 5516624,
+      "sha256": "027dbdf51d5491ca598b1c9d8a0fa9c5cf248a8a138d4c75ca34b55398495ecb",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage3.json",
+      "bytes": 252397,
+      "sha256": "7afae3657da5e49f50c7bf963a246b6778f4059f2f39c92b9c953e492e9b9275",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage4.bin",
+      "bytes": 5282744,
+      "sha256": "6fa9ef0d624ca502c492f7c8de4dfe4bcbfc3d387477e89871a170c923c5dc54",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage4.json",
+      "bytes": 252392,
+      "sha256": "eda9d99c51178972e64bb9aa470610c9b7dc2b384345bcb0a604583701726cda",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage5.bin",
+      "bytes": 2616628,
+      "sha256": "59830b12c044bcd5cf6679007a032380ecef08e50e4adbf49e542275f0881152",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage5.json",
+      "bytes": 128514,
+      "sha256": "5a328c16d9730a80067f216bf24c2bc7db7faf48c9263432623d795624db1563",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage6.bin",
+      "bytes": 2306340,
+      "sha256": "2574345b738e0403a1e76aa23f8e22aabdae30395389764a6fb4a6dd4ea70305",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage6.json",
+      "bytes": 151365,
+      "sha256": "ec063efab9e1de5796ec8e698adcf4ccfaa841846c4804b373e21a500ee4f452",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage7.bin",
+      "bytes": 4406352,
+      "sha256": "b87e27fe62b59a57a42d43307d2f5262345bbe128d4772429dcf928f52ba4d9b",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage7.json",
+      "bytes": 252408,
+      "sha256": "85816f7a7e14ca857c7b4a7e7464e819366ead0710aa5ec7e11e463e0d1e6b0e",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage8.bin",
+      "bytes": 2104600,
+      "sha256": "809633ff3be08552acd0ae603fd3e01a010b41ac37b95defe8a5a1275570c82b",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage8.json",
+      "bytes": 151360,
+      "sha256": "c7e408fb76106a4404b76675064600a26576f121f611f79d09c1a35c3ccd8291",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage9.bin",
+      "bytes": 2027996,
+      "sha256": "81f3fc3d63f8805afbe4b6b72c57e309b2507a0e0fed146eaa1a8b78f420f012",
+      "identical_to_original": true
+    },
+    {
+      "path": "public/models/stage9.json",
+      "bytes": 252371,
+      "sha256": "573c1a2ee8717aefb9880246d11d68056b1f54ff8cc5678bb421796680f39cb4",
+      "identical_to_original": true
+    }
+  ],
+  "limitations": [
+    "Original source-bundle archives and original training/clinical data were not fetched or reverified.",
+    "The original ChatGPT workspace access gate is not part of this standalone static app.",
+    "Browser localStorage is origin-specific; export/import is required to move records."
+  ]
+}
